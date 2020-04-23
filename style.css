@@ -1,0 +1,58 @@
+:root{
+
+    font-family: helvetica;
+    background-color: #392f4b;
+}
+
+body {
+    font-size: 10px;
+    border-style: none;
+    border: 0px;
+    color: #dad9de;
+
+    background-color: #333740;
+}
+
+.dir::before {
+  content: "";
+}
+
+h1{
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  font-size: 30px;
+  color: #7e5b82;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: #513d62;
+}
+
+
+#UI_showHidden{
+    font-size: 30px;
+}
+
+label{
+    margin : 10px;
+    font-size: 30px;
+}
+
+.dir::before, .file > img {
+    max-width: 106px;
+    max-height:106px;
+}
